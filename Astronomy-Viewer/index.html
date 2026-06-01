@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Universe Collection</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nebula"></div>
+    <div class="nebula nebula1"></div>
+<div class="nebula nebula2"></div>
+<div class="nebula nebula3"></div>
+<canvas id="starfield"></canvas>
+<div class="stars"></div>
+<div class="galaxy"></div>
+<div class="controls"></div>
+
+<header class="hero">
+
+    <h1>The Universe Collection</h1>
+
+    <p class="subtitle">
+        A DAILY GLIMPSE INTO THE COSMOS
+    </p>
+
+</header>
+
+<div class="container">
+
+    <div class="controls">
+
+        <button id="prevBtn">← Previous</button>
+
+        <input type="date" id="datePicker">
+
+        <button id="searchBtn">Search</button>
+
+        <button id="nextBtn">Next →</button>
+
+        <select id="languageSelect">
+            <option value="en">🇺🇸 English</option>
+            <option value="pt">🇧🇷 Português</option>
+            <option value="es">🇪🇸 Español</option>
+            <option value="it">🇮🇹 Italiano</option>
+            <option value="el">🇬🇷 Ελληνικά</option>
+        </select>
+
+    </div>
+
+    <div id="loader" class="loader"></div>
+
+    <section class="hero-image-section">
+
+        <div id="mediaContainer"></div>
+
+    </section>
+
+    <section class="content">
+
+        <h2 id="title"></h2>
+
+        <p id="date"></p>
+
+        <p id="description"></p>
+
+        <div class="quote">
+            “Somewhere, something incredible is waiting to be known.”
+        </div>
+
+        <div class="actions">
+
+            <button id="favoriteBtn">
+                ⭐ Save Favorite
+            </button>
+
+            <a id="downloadBtn" target="_blank">
+                ⬇ Download
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="favorites">
+
+        <h3>Saved Favorites</h3>
+
+        <ul id="favoritesList"></ul>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+<div class="container">
+
+    <!-- loader -->
+
+    <!-- image -->
+
+    <!-- title -->
+
+    <!-- description -->
+
+    <!-- buttons -->
+
+    <!-- favorites -->
+
+</div>
